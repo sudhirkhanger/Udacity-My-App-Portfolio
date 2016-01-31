@@ -65,7 +65,7 @@ public class PortfolioActivity
      *
      * @param i string of the title of the app project
      */
-    public void mySnackbar(int i) {
+    private void mySnackbar(int i) {
         Snackbar
                 .make(this.findViewById(android.R.id.content),
                         "This will open " + getResources().getString(i),
