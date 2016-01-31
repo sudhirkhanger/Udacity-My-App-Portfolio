@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Common theme for the first 5 project buttons -->
+    <style name="StandardButton">
+        <item name="android:colorButtonNormal">@color/standard_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Theme for capstone button -->
+    <style name="CapstoneButton">
+        <item name="android:colorButtonNormal">@color/capstone_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

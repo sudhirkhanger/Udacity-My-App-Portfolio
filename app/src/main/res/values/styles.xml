@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!-- Common theme for the first 5 project buttons -->
+    <style name="StandardButton">
+        <item name="colorButtonNormal">@color/standard_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <!-- Theme for capstone button -->
+    <style name="CapstoneButton">
+        <item name="colorButtonNormal">@color/capstone_button_background</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>
